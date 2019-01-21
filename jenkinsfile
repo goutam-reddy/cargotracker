@@ -21,17 +21,10 @@ pipeline {
                       echo "Hello"
                 }
                 }
-                stage('Four') {
-                           ('Unit Test') 
+                stage('Unit Test') {
                           steps {
-                           ('Unit Test') 
                              echo "Running the unit test..."
                           }
                           }
-                           steps {
-                                 echo "Running the integration test..."
-                                 }
-                            
-                            
-                            }
                    }
+            }
